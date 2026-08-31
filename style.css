@@ -123,13 +123,3 @@ button{-webkit-tap-highlight-color:transparent}
 .action-button.ready{box-shadow:0 0 0 10px rgba(99,228,155,.1),0 12px 34px rgba(0,0,0,.36)}
 .boss-hud{box-shadow:0 10px 26px rgba(0,0,0,.32)}
 .hint{background:rgba(8,20,14,.88)}
-
-
-/* v5.4 — Besednice chase, theft alert and final animation polish */
-.theft-alert{position:absolute;z-index:40;left:50%;top:48%;transform:translate(-50%,-50%) scale(.88);width:min(760px,calc(100vw - 28px));padding:24px 26px;text-align:center;background:linear-gradient(135deg,rgba(65,9,13,.98),rgba(20,5,8,.98));border:2px solid rgba(255,99,91,.82);border-radius:18px;box-shadow:0 28px 100px rgba(0,0,0,.7),0 0 70px rgba(215,55,47,.28);opacity:0;pointer-events:none;transition:opacity .16s,transform .2s}
-.theft-alert.show{opacity:1;transform:translate(-50%,-50%) scale(1);animation:theftImpact .32s ease-out}
-.theft-alert small{display:block;color:#ffb66d;font-size:11px;letter-spacing:.28em;font-weight:1000}.theft-alert strong{display:block;margin:8px 0;color:#fff;font-size:clamp(27px,7.5vw,58px);line-height:.92;letter-spacing:-.035em;text-shadow:0 4px 22px rgba(0,0,0,.8)}.theft-alert span{display:block;color:#f5c7c4;font-size:clamp(11px,2.5vw,16px);line-height:1.4}
-@keyframes theftImpact{0%{transform:translate(-50%,-50%) scale(1.18) rotate(-1deg)}55%{transform:translate(-50%,-50%) scale(.97) rotate(.5deg)}100%{transform:translate(-50%,-50%) scale(1)}}
-.boss-hud.vulnerable{border-color:rgba(122,227,167,.72);box-shadow:0 0 34px rgba(80,195,126,.25)}.boss-hud.vulnerable em{background:linear-gradient(90deg,#4c9b69,#8ce2a8)}
-.action-button.boss-ready{background:linear-gradient(145deg,#d85b47,#7d251f);border-color:#ffc4b9;box-shadow:0 0 0 10px rgba(255,96,78,.13),0 14px 38px rgba(0,0,0,.42)}
-@media(max-width:520px){.theft-alert{padding:20px 16px}.theft-alert strong{font-size:clamp(28px,10vw,48px)}}
