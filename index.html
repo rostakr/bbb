@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,viewport-fit=cover,user-scalable=no">
-  <meta name="theme-color" content="#07120d">
+  <meta name="theme-color" content="#2f0a67">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-title" content="Lovec vltavínů">
@@ -46,6 +46,12 @@
     <div id="toast" class="toast"></div>
   </section>
 
+  <div id="theftAlert" class="theft-alert hidden" aria-live="assertive">
+    <small>POZOR!</small>
+    <strong>BYL JSI OKRADEN OD FEŤÁKA</strong>
+    <span>Vzácný Besednický ježek ti byl vytržen přímo z profilu. Dožeň zloděje!</span>
+  </div>
+
   <div id="bossIntro" class="boss-intro hidden" aria-live="assertive">
     <div class="boss-intro-line"></div>
     <small id="bossIntroKicker">HROZBA V LOKALITĚ</small>
@@ -66,16 +72,17 @@
       <div class="field-lines"></div><div class="title-gem">◆</div>
     </div>
     <div class="title-copy">
-      <p class="eyebrow">JIŽNÍ ČECHY · ARKÁDOVÁ VÝPRAVA</p>
+      <div class="title-brand"><img src="./assets/ui/na-zelene-vlne.jpg" alt="Na Zelené Vlně"></div>
+      <p class="eyebrow">JIŽNÍ ČECHY · SBÍRKA PRO VÝSTAVU</p>
       <h1>Lovec<br>vltavínů</h1>
-      <p class="subtitle">Z pole až na Zelenou vlnu</p>
+      <p class="subtitle">Dostaň se na Na zelené vlně a přivez nejlepší sbírku vltavínů</p>
       <button id="playButton" class="play-button" type="button"><span>VYRAZIT</span><small>jedním klepnutím</small></button>
       <button id="continueButton" class="text-button hidden" type="button">Pokračovat v rozehrané výpravě</button>
       <div class="title-tools">
         <button id="howButton" class="text-button" type="button">Jak se hraje</button>
         <button id="recordsButton" class="text-button" type="button">Rekordy</button>
       </div>
-      <p class="version">v5.1 · Real Localities</p>
+      <p class="version">v5.4 · Final Gameplay Edition</p>
     </div>
   </section>
 
@@ -85,6 +92,7 @@
       <h2 id="briefTitle">Chlum po bouřce</h2>
       <p id="briefText"></p>
       <div class="brief-goal"><span>ÚKOL</span><strong id="briefGoal"></strong></div>
+      <div class="brief-why"><span>PROČ</span><p id="briefWhy"></p></div>
       <button id="briefButton" class="primary-button" type="button">JDU NA TO</button>
     </div>
   </section>

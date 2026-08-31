@@ -1,7 +1,13 @@
-# Lovec vltavínů Reborn 5.1 — Real Localities
+# Lovec vltavínů: Na zelené vlně — Reborn 5.4
 
-Prostředí hlavních levelů bylo přepracováno podle uživatelem dodaných fotografií skutečných míst. Vizuál je stylizovaný pro čitelnost mobilní hry, ale kompozice, typ povrchu a dominantní prvky odpovídají předlohám.
+Finálně sjednocená mobilní webová hra. Cílem je projít jihočeské lokality, sestavit nejlepší sbírku vltavínů a dostat se na akci **Na zelené vlně** v KD Slávie.
+
+## Besednice
+1. Rozhlédnutím najdi tři stopy.
+2. Vykopej odhalený ježkový profil.
+3. Po krádeži dožeň Karla.
+4. Karel sprintuje; po sprintu se krátce zastaví a je zranitelný.
+5. Třemi správně načasovanými zásahy získej ježka zpět.
 
 ## Nasazení
-
-Nahrajte rozbalený obsah této složky do kořene větve `main` v GitHub Pages repozitáři.
+Nahraj rozbalený obsah ZIPu do kořene GitHub repozitáře.
