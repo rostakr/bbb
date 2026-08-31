@@ -1,13 +1,9 @@
-# Lovec vltavínů: Na zelené vlně — Reborn 5.4
+# Lovec vltavínů: Na zelené vlně — Reborn 5.4.1
 
-Finálně sjednocená mobilní webová hra. Cílem je projít jihočeské lokality, sestavit nejlepší sbírku vltavínů a dostat se na akci **Na zelené vlně** v KD Slávie.
+Opravené vydání verze 5.4. Původní balíček 5.4 obsahoval kritickou chybu vykreslování a neměl být nasazen. Použij tento balíček.
 
-## Besednice
-1. Rozhlédnutím najdi tři stopy.
-2. Vykopej odhalený ježkový profil.
-3. Po krádeži dožeň Karla.
-4. Karel sprintuje; po sprintu se krátce zastaví a je zranitelný.
-5. Třemi správně načasovanými zásahy získej ježka zpět.
-
-## Nasazení
-Nahraj rozbalený obsah ZIPu do kořene GitHub repozitáře.
+## Opraveno
+- všechny levely se znovu vykreslí;
+- fungují traktory, hlídky, předměty a profily;
+- upozornění o krádeži se správně zobrazí a zavře;
+- honička v Besednici nezačne pod neprůhledným upozorněním.
